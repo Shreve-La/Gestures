@@ -61,7 +61,7 @@
                     </connections>
                 </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-1919" y="495"/>
+            <point key="canvasLocation" x="-1918" y="540"/>
         </scene>
         <!--Tap-->
         <scene sceneID="Oe6-J1-7xB">
@@ -80,7 +80,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Msw-90-kFW" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-617" y="496"/>
+            <point key="canvasLocation" x="-1055" y="541"/>
         </scene>
         <!--Pinch-->
         <scene sceneID="aTp-AA-rQh">
@@ -99,7 +99,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wG8-7D-525" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="234" y="496"/>
+            <point key="canvasLocation" x="-166" y="541"/>
         </scene>
     </scenes>
     <resources>
