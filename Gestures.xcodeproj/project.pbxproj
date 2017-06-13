@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		EDDCA6301EF039FD0012653D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDCA62F1EF039FD0012653D /* main.m */; };
 		EDDCA6331EF039FD0012653D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDCA6321EF039FD0012653D /* AppDelegate.m */; };
-		EDDCA6361EF039FD0012653D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDCA6351EF039FD0012653D /* ViewController.m */; };
 		EDDCA6391EF039FD0012653D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDCA6371EF039FD0012653D /* Main.storyboard */; };
 		EDDCA63B1EF039FD0012653D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDDCA63A1EF039FD0012653D /* Assets.xcassets */; };
 		EDDCA63E1EF039FD0012653D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDDCA63C1EF039FD0012653D /* LaunchScreen.storyboard */; };
+		EDDCA64B1EF03CF00012653D /* item1.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDDCA6451EF03CF00012653D /* item1.pdf */; };
+		EDDCA64C1EF03CF00012653D /* item2.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDDCA6461EF03CF00012653D /* item2.pdf */; };
+		EDDCA64D1EF03CF00012653D /* item3.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDDCA6471EF03CF00012653D /* item3.pdf */; };
+		EDDCA64E1EF03CF00012653D /* item4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDDCA6481EF03CF00012653D /* item4.pdf */; };
+		EDDCA64F1EF03CF00012653D /* item5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDDCA6491EF03CF00012653D /* item5.pdf */; };
+		EDDCA6501EF03CF00012653D /* item6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDDCA64A1EF03CF00012653D /* item6.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +25,16 @@
 		EDDCA62F1EF039FD0012653D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EDDCA6311EF039FD0012653D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EDDCA6321EF039FD0012653D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EDDCA6341EF039FD0012653D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EDDCA6351EF039FD0012653D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		EDDCA6381EF039FD0012653D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EDDCA63A1EF039FD0012653D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDDCA63D1EF039FD0012653D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDDCA63F1EF039FD0012653D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDDCA6451EF03CF00012653D /* item1.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = item1.pdf; sourceTree = "<group>"; };
+		EDDCA6461EF03CF00012653D /* item2.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = item2.pdf; sourceTree = "<group>"; };
+		EDDCA6471EF03CF00012653D /* item3.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = item3.pdf; sourceTree = "<group>"; };
+		EDDCA6481EF03CF00012653D /* item4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = item4.pdf; sourceTree = "<group>"; };
+		EDDCA6491EF03CF00012653D /* item5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = item5.pdf; sourceTree = "<group>"; };
+		EDDCA64A1EF03CF00012653D /* item6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = item6.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +67,8 @@
 		EDDCA62D1EF039FD0012653D /* Gestures */ = {
 			isa = PBXGroup;
 			children = (
-				EDDCA6311EF039FD0012653D /* AppDelegate.h */,
-				EDDCA6321EF039FD0012653D /* AppDelegate.m */,
-				EDDCA6341EF039FD0012653D /* ViewController.h */,
-				EDDCA6351EF039FD0012653D /* ViewController.m */,
 				EDDCA6371EF039FD0012653D /* Main.storyboard */,
 				EDDCA63A1EF039FD0012653D /* Assets.xcassets */,
-				EDDCA63C1EF039FD0012653D /* LaunchScreen.storyboard */,
-				EDDCA63F1EF039FD0012653D /* Info.plist */,
 				EDDCA62E1EF039FD0012653D /* Supporting Files */,
 			);
 			path = Gestures;
@@ -74,6 +77,16 @@
 		EDDCA62E1EF039FD0012653D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EDDCA6451EF03CF00012653D /* item1.pdf */,
+				EDDCA6461EF03CF00012653D /* item2.pdf */,
+				EDDCA6471EF03CF00012653D /* item3.pdf */,
+				EDDCA6481EF03CF00012653D /* item4.pdf */,
+				EDDCA6491EF03CF00012653D /* item5.pdf */,
+				EDDCA64A1EF03CF00012653D /* item6.pdf */,
+				EDDCA63F1EF039FD0012653D /* Info.plist */,
+				EDDCA63C1EF039FD0012653D /* LaunchScreen.storyboard */,
+				EDDCA6311EF039FD0012653D /* AppDelegate.h */,
+				EDDCA6321EF039FD0012653D /* AppDelegate.m */,
 				EDDCA62F1EF039FD0012653D /* main.m */,
 			);
 			name = "Supporting Files";
@@ -139,8 +152,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDDCA63E1EF039FD0012653D /* LaunchScreen.storyboard in Resources */,
+				EDDCA64B1EF03CF00012653D /* item1.pdf in Resources */,
 				EDDCA63B1EF039FD0012653D /* Assets.xcassets in Resources */,
+				EDDCA64C1EF03CF00012653D /* item2.pdf in Resources */,
 				EDDCA6391EF039FD0012653D /* Main.storyboard in Resources */,
+				EDDCA64F1EF03CF00012653D /* item5.pdf in Resources */,
+				EDDCA64E1EF03CF00012653D /* item4.pdf in Resources */,
+				EDDCA64D1EF03CF00012653D /* item3.pdf in Resources */,
+				EDDCA6501EF03CF00012653D /* item6.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,7 +170,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EDDCA6361EF039FD0012653D /* ViewController.m in Sources */,
 				EDDCA6331EF039FD0012653D /* AppDelegate.m in Sources */,
 				EDDCA6301EF039FD0012653D /* main.m in Sources */,
 			);
