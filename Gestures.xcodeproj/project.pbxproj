@@ -18,6 +18,8 @@
 		EDDCA64E1EF03CF00012653D /* item4.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDDCA6481EF03CF00012653D /* item4.pdf */; };
 		EDDCA64F1EF03CF00012653D /* item5.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDDCA6491EF03CF00012653D /* item5.pdf */; };
 		EDDCA6501EF03CF00012653D /* item6.pdf in Resources */ = {isa = PBXBuildFile; fileRef = EDDCA64A1EF03CF00012653D /* item6.pdf */; };
+		EDDCA6531EF0424D0012653D /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDCA6521EF0424D0012653D /* PanViewController.m */; };
+		EDDCA6561EF0426B0012653D /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDCA6551EF0426B0012653D /* TapViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,10 @@
 		EDDCA6481EF03CF00012653D /* item4.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = item4.pdf; sourceTree = "<group>"; };
 		EDDCA6491EF03CF00012653D /* item5.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = item5.pdf; sourceTree = "<group>"; };
 		EDDCA64A1EF03CF00012653D /* item6.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = item6.pdf; sourceTree = "<group>"; };
+		EDDCA6511EF0424D0012653D /* PanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
+		EDDCA6521EF0424D0012653D /* PanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
+		EDDCA6541EF0426B0012653D /* TapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		EDDCA6551EF0426B0012653D /* TapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,10 @@
 			isa = PBXGroup;
 			children = (
 				EDDCA6371EF039FD0012653D /* Main.storyboard */,
+				EDDCA6511EF0424D0012653D /* PanViewController.h */,
+				EDDCA6521EF0424D0012653D /* PanViewController.m */,
+				EDDCA6541EF0426B0012653D /* TapViewController.h */,
+				EDDCA6551EF0426B0012653D /* TapViewController.m */,
 				EDDCA63A1EF039FD0012653D /* Assets.xcassets */,
 				EDDCA62E1EF039FD0012653D /* Supporting Files */,
 			);
@@ -170,7 +180,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDDCA6531EF0424D0012653D /* PanViewController.m in Sources */,
 				EDDCA6331EF039FD0012653D /* AppDelegate.m in Sources */,
+				EDDCA6561EF0426B0012653D /* TapViewController.m in Sources */,
 				EDDCA6301EF039FD0012653D /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
