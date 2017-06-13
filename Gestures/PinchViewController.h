@@ -10,4 +10,8 @@
 
 @interface PinchViewController : UIViewController
 
+
+    
+    
+
 @end

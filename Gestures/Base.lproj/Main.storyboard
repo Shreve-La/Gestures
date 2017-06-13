@@ -82,7 +82,7 @@
             </objects>
             <point key="canvasLocation" x="-617" y="496"/>
         </scene>
-        <!--Item-->
+        <!--Pinch-->
         <scene sceneID="aTp-AA-rQh">
             <objects>
                 <viewController id="wjM-Hx-Nif" customClass="PinchViewController" sceneMemberID="viewController">
@@ -95,7 +95,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" red="1" green="0.78340764911111316" blue="0.92507786725735797" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" image="item3" selectedImage="item3" id="aBU-V7-7Za"/>
+                    <tabBarItem key="tabBarItem" title="Pinch" image="item3" selectedImage="item3" id="aBU-V7-7Za"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wG8-7D-525" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
