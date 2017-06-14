@@ -21,6 +21,7 @@
 		EDDCA6531EF0424D0012653D /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDCA6521EF0424D0012653D /* PanViewController.m */; };
 		EDDCA6561EF0426B0012653D /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDCA6551EF0426B0012653D /* TapViewController.m */; };
 		EDDCA6591EF04BF20012653D /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDDCA6581EF04BF20012653D /* PinchViewController.m */; };
+		EDE18FD81EF08A1900668BC7 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE18FD71EF08A1900668BC7 /* SwipeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,8 @@
 		EDDCA6551EF0426B0012653D /* TapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
 		EDDCA6571EF04BF20012653D /* PinchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
 		EDDCA6581EF04BF20012653D /* PinchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
+		EDE18FD61EF08A1900668BC7 /* SwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		EDE18FD71EF08A1900668BC7 /* SwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 				EDDCA6371EF039FD0012653D /* Main.storyboard */,
 				EDDCA6571EF04BF20012653D /* PinchViewController.h */,
 				EDDCA6581EF04BF20012653D /* PinchViewController.m */,
+				EDE18FD61EF08A1900668BC7 /* SwipeViewController.h */,
+				EDE18FD71EF08A1900668BC7 /* SwipeViewController.m */,
 				EDDCA6511EF0424D0012653D /* PanViewController.h */,
 				EDDCA6521EF0424D0012653D /* PanViewController.m */,
 				EDDCA6541EF0426B0012653D /* TapViewController.h */,
@@ -188,6 +193,7 @@
 				EDDCA6531EF0424D0012653D /* PanViewController.m in Sources */,
 				EDDCA6331EF039FD0012653D /* AppDelegate.m in Sources */,
 				EDDCA6591EF04BF20012653D /* PinchViewController.m in Sources */,
+				EDE18FD81EF08A1900668BC7 /* SwipeViewController.m in Sources */,
 				EDDCA6561EF0426B0012653D /* TapViewController.m in Sources */,
 				EDDCA6301EF039FD0012653D /* main.m in Sources */,
 			);
@@ -350,6 +356,7 @@
 				EDDCA6441EF039FD0012653D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

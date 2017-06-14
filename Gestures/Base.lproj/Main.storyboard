@@ -22,6 +22,7 @@
                         <segue destination="ZOO-ie-Bta" kind="relationship" relationship="viewControllers" id="2OG-Vk-tXI"/>
                         <segue destination="YaK-B5-7Bb" kind="relationship" relationship="viewControllers" id="JX3-bj-mCJ"/>
                         <segue destination="wjM-Hx-Nif" kind="relationship" relationship="viewControllers" id="Jym-Tt-xtT"/>
+                        <segue destination="FUg-cM-R3p" kind="relationship" relationship="viewControllers" id="FPZ-oB-EHs"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hR0-tC-XrY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -101,10 +102,30 @@
             </objects>
             <point key="canvasLocation" x="-166" y="541"/>
         </scene>
+        <!--swipe-->
+        <scene sceneID="hCS-6w-iFc">
+            <objects>
+                <viewController id="FUg-cM-R3p" customClass="SwipeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="THt-J8-Igc"/>
+                        <viewControllerLayoutGuide type="bottom" id="W9S-Yp-obg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ofB-QZ-5IS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.057074652777777776" green="0.2121853298611111" blue="0.19173177083333334" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="swipe" image="item4" id="TuZ-9z-FrN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YZN-Fg-3u7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="570" y="552"/>
+        </scene>
     </scenes>
     <resources>
         <image name="item1" width="30" height="30"/>
         <image name="item2" width="30" height="28"/>
         <image name="item3" width="30" height="28"/>
+        <image name="item4" width="30" height="30"/>
     </resources>
 </document>

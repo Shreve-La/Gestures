@@ -8,7 +8,12 @@
 
 #import "PinchViewController.h"
 
-@interface PinchViewController ()
+@interface PinchViewController (){
+
+
+    UIView *view;
+    CGFloat scale;
+}
 
 @end
 
@@ -16,11 +21,12 @@
 
 -(void)viewDidLoad{
     [super viewDidLoad];
+    
     CGFloat width = 100;
     CGFloat height = 100;
     CGRect frame = CGRectMake(CGRectGetMidX(self.view.bounds)-width/2, CGRectGetMidY(self.view.bounds)-height/2, width, height);
     
-    UIView *view = [[UIView alloc] initWithFrame:frame];
+    view = [[UIView alloc] initWithFrame:frame];
     
     view.backgroundColor = [UIColor purpleColor];
     [self.view addSubview:view];
@@ -31,9 +37,37 @@
 }
 
 -(void)viewPinched:(UIPinchGestureRecognizer *)sender{
-    CGFloat scale = sender.scale;
-    sender.view.transform = CGAffineTransformMakeScale(scale, scale);
-    scale = 1.0;
+    
+// draft code to have pinched shape preserver state between multiple pinches
+    
+//    switch (sender.state) {
+//        case UIGestureRecognizerStateChanged:
+//            // scale here
+//            scale = sender.scale;
+//            sender.view.transform = CGAffineTransformMakeScale(scale, scale);
+//            scale = 1.0;
+//
+//
+//            break;
+//        case UIGestureRecognizerStateEnded:
+//            view.frame  = sender.view.frame;
+//            sender.view.transform = CGAffineTransformIdentity;
+//            // store final frame
+//            // reset transform to CGAffineTransformIdentity
+//            break;
+//            
+//        default:
+//            break;
+//    }
+    
+    scale = sender.scale;
+   sender.view.transform = CGAffineTransformMakeScale(scale, scale);
+   NSLog(@"%f", scale);
+   NSLog(@"%@", NSStringFromCGRect(sender.view.frame));
+   scale = 1.0;
+//   width = sender.view.bounds.size.width;
+//   height = sender.view.bounds.size.width;
+    
 }
 
 @end
