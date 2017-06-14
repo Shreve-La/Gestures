@@ -23,6 +23,7 @@
                         <segue destination="YaK-B5-7Bb" kind="relationship" relationship="viewControllers" id="JX3-bj-mCJ"/>
                         <segue destination="wjM-Hx-Nif" kind="relationship" relationship="viewControllers" id="Jym-Tt-xtT"/>
                         <segue destination="FUg-cM-R3p" kind="relationship" relationship="viewControllers" id="FPZ-oB-EHs"/>
+                        <segue destination="oTh-3i-YXJ" kind="relationship" relationship="viewControllers" id="EKp-nZ-TkL"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hR0-tC-XrY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -51,7 +52,7 @@
                                 </connections>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Pan" image="item1" id="2GI-Tn-7Cr"/>
                 </viewController>
@@ -75,7 +76,7 @@
                     <view key="view" contentMode="scaleToFill" id="cfM-gW-op9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.29803922770000002" green="0.29803922770000002" blue="0.29803922770000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="Tap" image="item2" id="ZCC-0V-jfq"/>
                 </viewController>
@@ -113,7 +114,7 @@
                     <view key="view" contentMode="scaleToFill" id="ofB-QZ-5IS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.057074652777777776" green="0.2121853298611111" blue="0.19173177083333334" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="0.25098040700000002" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="swipe" image="item4" id="TuZ-9z-FrN"/>
                 </viewController>
@@ -121,11 +122,31 @@
             </objects>
             <point key="canvasLocation" x="570" y="552"/>
         </scene>
+        <!--Rotation-->
+        <scene sceneID="Gsv-Rv-GwC">
+            <objects>
+                <viewController id="oTh-3i-YXJ" customClass="RotationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fxs-cP-BTp"/>
+                        <viewControllerLayoutGuide type="bottom" id="czW-ij-Div"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Saf-45-vQ7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Rotation" image="item5" id="p5c-ty-zGG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uzJ-P0-Fiz" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1375" y="552"/>
+        </scene>
     </scenes>
     <resources>
         <image name="item1" width="30" height="30"/>
         <image name="item2" width="30" height="28"/>
         <image name="item3" width="30" height="28"/>
         <image name="item4" width="30" height="30"/>
+        <image name="item5" width="30" height="30"/>
     </resources>
 </document>
