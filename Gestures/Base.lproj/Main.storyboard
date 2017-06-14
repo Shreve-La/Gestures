@@ -24,6 +24,7 @@
                         <segue destination="wjM-Hx-Nif" kind="relationship" relationship="viewControllers" id="Jym-Tt-xtT"/>
                         <segue destination="FUg-cM-R3p" kind="relationship" relationship="viewControllers" id="FPZ-oB-EHs"/>
                         <segue destination="oTh-3i-YXJ" kind="relationship" relationship="viewControllers" id="EKp-nZ-TkL"/>
+                        <segue destination="YN7-K3-Iai" kind="relationship" relationship="viewControllers" id="aeB-nV-vkX"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hR0-tC-XrY" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -141,6 +142,25 @@
             </objects>
             <point key="canvasLocation" x="1375" y="552"/>
         </scene>
+        <!--Edge Swipe-->
+        <scene sceneID="OLM-BZ-B9U">
+            <objects>
+                <viewController id="YN7-K3-Iai" customClass="EdgeSwipeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XHK-Mm-aWq"/>
+                        <viewControllerLayoutGuide type="bottom" id="guw-jb-ZYj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0Aa-4V-3lV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Edge Swipe" image="item6" selectedImage="item6" id="iZI-I2-zMn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FZK-Gx-hfT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2150" y="556"/>
+        </scene>
     </scenes>
     <resources>
         <image name="item1" width="30" height="30"/>
@@ -148,5 +168,6 @@
         <image name="item3" width="30" height="28"/>
         <image name="item4" width="30" height="30"/>
         <image name="item5" width="30" height="30"/>
+        <image name="item6" width="30" height="30"/>
     </resources>
 </document>
